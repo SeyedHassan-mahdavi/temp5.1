@@ -1,0 +1,112 @@
+@media screen and (min-width: 768px) and (max-width: 1250px) {}
+@media (max-width: 767px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  main .top .img_top {
+    border-radius: 0;
+    height: 188px;
+    width: 103%;
+    margin-right: -5px;
+  }
+
+  header .newsDate {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    min-height: 50px;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header .info {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+  header .social {
+    background: var(--dark-color);
+    border-radius: 22px 0 0 22px;
+    padding: 5px 40px 2px 10px;
+    margin-right: -65px;
+    z-index: 0;
+    margin-top: 4px;
+  }
+  header .sokhan span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+  header .logo img {
+    width: 115px;
+    height: 35px;
+    border-radius: 22px;
+    background: var(--blue-color);
+  }
+  header .wrap {
+    text-align: justify;
+  }
+  main .multimedia {
+    padding: 1rem 0.5rem 0 0 !important
+  }
+  main .multimedia .nav.nav-pills {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  main .multimedia .big_video img {
+    border-radius: 0;
+    height: 210px;
+    width: 109%;
+    margin-right: -20px;
+  }
+  main .top .title, header .alldate, header .wrap .last-news:after, footer .newsletter {
+    display: none !important;
+  }
+  /* .pic-items .d-flex {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }*/
+  main .multimedia .pic-item {
+    margin-right: 0;
+  }
+  main .multimedia .big_video::before {
+    top: 35%;
+    right: 40%;
+  }
+  main .multimedia .big_picture img {
+    height: 250px;
+  }
+  main .multimedia .big_video .title {
+    font-size: 16px;
+  }
+  main .multimedia .vid-item .cover {
+    width: 50% !important;
+  }
+  main .multimedia .pic-item .title {
+    bottom: 0;
+    right: 9px;
+    font-size: 12px;
+  }
+  footer {
+    padding: 0 !important;
+  }
+	footer .top_page {
+  margin-top: 0px;
+  background: var(--white-color);
+  padding: 0;
+  border-radius: 35%;
+  width: 50px;
+  position: absolute;
+}
+}
+@media (min-width: 992px) {}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {}
+@media screen and (min-width: 1px) and (max-width: 466px) {}

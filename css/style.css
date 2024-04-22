@@ -168,10 +168,11 @@ header .form button {
 header .nav {
   margin: 10px 0 20px 0;
 }
+
 header .nav .collapse.show {
-display: flex !important;
-justify-content: center ;
-margin: 20px;
+  display: flex !important;
+  justify-content: center;
+  margin: 20px;
 }
 
 header .nav .navbar-nav {
@@ -309,7 +310,7 @@ header .wrap .khabar-fori:before {
   display: flex;
   flex-direction: column;
   margin: 15px;
-  justify-self:center;
+  justify-self: center;
 }
 
 .slider-card-img {
@@ -317,11 +318,13 @@ header .wrap .khabar-fori:before {
   height: 175px;
   border-radius: 10px;
 }
-.slider-card-titr{
+
+.slider-card-titr {
   color: #086221;
   font-weight: bolder;
 }
-.slider-card-time{
+
+.slider-card-time {
   color: rgba(70, 70, 70, 0.51);
 }
 
@@ -343,6 +346,7 @@ header .wrap .khabar-fori:before {
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 1;
 }
+
 .prev-slider-sardabir {
   position: absolute;
   left: 0;
@@ -369,6 +373,7 @@ header .wrap .khabar-fori:before {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
+
 .scroll-images-sardabir {
   position: relative;
   width: 100%;
@@ -386,13 +391,15 @@ header .wrap .khabar-fori:before {
   min-width: max-content;
   margin: 10px;
 }
-.report{
+
+.report {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-top: 25px;
 }
-.card-report{
+
+.card-report {
   border: 1px solid rgba(220, 220, 220, 1);
   width: 480px;
   height: 135px;
@@ -403,7 +410,8 @@ header .wrap .khabar-fori:before {
   align-items: center;
   padding: 10px;
 }
-.badge-card{
+
+.badge-card {
   width: 100px;
   height: 32px;
   background-color: #07842A;
@@ -412,9 +420,9 @@ header .wrap .khabar-fori:before {
   top: -30px;
   border-radius: 10px;
   color: #fff;
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes leaves {
@@ -1050,7 +1058,7 @@ main .cat .box1 .overlay {
 
 .pagination .first,
 .pagination .last {
-  background: rgba(36, 105, 219, 1);
+  background: rgba(7, 132, 42, 1);
   color: #fff;
   font-size: 17px;
   line-height: 1.2;
@@ -1167,7 +1175,7 @@ footer ul li {
 }
 
 footer a {
-  color:black
+  color: black
 }
 
 /* footer .f-info {
@@ -1178,6 +1186,7 @@ footer .title {
   font-size: 17px;
   text-align: right;
 }
+
 .news-latter-footer {
   height: 100px;
   background-color: rgb(202 224 208);
@@ -1199,52 +1208,18 @@ footer .title {
   display: flex;
   align-items: center;
 }
+
 .news-latter-footer form input {
   height: 60px;
   width: 300px;
   border-radius: 20px;
 }
+
 .news-latter-footer form img {
-position: absolute;
-right: 2%;
+  position: absolute;
+  right: 2%;
 }
 
-/* .newsletter .form {
-  position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  padding: 5px;
-  border-radius: 16px;
-  width: 500px;
-} */
-
-/* .newsletter .form .form-control {
-  background: transparent;
-  font-size: 13px;
-  font-weight: 400;
-  padding: 12px;
-  letter-spacing: 0em;
-  text-align: right;
-} */
-
-/* .newsletter .form-control::placeholder {
-  color: #fff;
-  opacity: 1;
-} */
-
-/* .newsletter .form-control:focus {
-  border-color: unset;
-  box-shadow: unset;
-} */
-
-/* .newsletter .form button {
-  position: absolute;
-  top: 10%;
-  left: 7px;
-  height: 80%;
-  background: var(--white-color) !important;
-  color: var(--dark-color);
-  border-radius: 65px;
-} */
 
 footer .social {
   border-radius: 40px;
@@ -1263,8 +1238,6 @@ footer .social .social-item img {
 }
 
 
-
-
 footer .copyright {
   padding: 15px;
 }
@@ -1274,3 +1247,44 @@ footer .copyright span {
 }
 
 /*footer*/
+
+
+/* into */
+
+.lead-news {
+  background-color: rgba(214, 214, 214, 0.18);
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: start;
+  margin-top: 20px;
+  padding: 15px;
+  line-height: 2;
+}
+
+.section-title .title  {
+  border-right: 4px solid rgba(7, 132, 42, 1);
+  border-radius: 2px;
+  padding-right: 10px;
+  
+}
+.section-title ul li  {
+  border-bottom: 1px solid rgba(217, 217, 217, 0.3);
+  padding: 6px 20px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.section-title-circle {
+width: 15px;
+height: 15px;
+background-color: #07842A;
+border-radius: 100%;
+}
+
+.lead-titr{
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #07842A;
+}

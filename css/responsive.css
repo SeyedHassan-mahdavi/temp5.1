@@ -63,6 +63,21 @@
     text-align: justify;
   }
 
+  .img-index .lead-img {
+
+    height: 210px;
+    border-radius: 0;
+    width: 100%;
+    }
+    .lead-img-date {
+      bottom: 3%;
+      font-size: medium;
+    }
+
+    .img-lead-h{
+      height: auto;
+    }
+
   main .multimedia {
     padding: 1rem 0.5rem 0 0 !important
   }
